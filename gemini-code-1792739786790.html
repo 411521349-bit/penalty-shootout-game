@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Football Penalty Shootout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Penalty Shootout Challenge</h1>
+    <div class="scoreboard">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>Attempts: <strong id="attempts">5</strong></span>
+    </div>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <p class="instructions">Click/Tap inside the goal area to shoot the ball!</p>
+    <button id="resetBtn" style="display:none;" onclick="resetGame()">Play Again</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
